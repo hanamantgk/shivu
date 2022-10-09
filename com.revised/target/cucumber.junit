@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="1.218">
+    <testcase classname="Title of your feature1" name="User is  not able login1 with the invalid credentials" time="0.066">
+        <system-out><![CDATA[Given User launched the login1 page.........................................passed
+When User logged1 into the application with username Deepak and password Male.passed
+Then Home page1 is not displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature1" name="User is  not able login1 with the invalid credentials 2" time="0.015">
+        <system-out><![CDATA[Given User launched the login1 page.........................................passed
+When User logged1 into the application with username Hanmanth and password Male.passed
+Then Home page1 is not displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature1" name="User is  not able login1 with the invalid credentials 3" time="0.007">
+        <system-out><![CDATA[Given User launched the login1 page.........................................passed
+When User logged1 into the application with username Shivu and password Male.passed
+Then Home page1 is not displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature1" name="User is  not able login1 with the invalid credentials 4" time="0.006">
+        <system-out><![CDATA[Given User launched the login1 page.........................................passed
+When User logged1 into the application with username Akshata and password Female.passed
+Then Home page1 is not displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature1" name="User is  not able login1 with the invalid credentials 5" time="0.008">
+        <system-out><![CDATA[Given User launched the login1 page.........................................passed
+When User logged1 into the application with username Divya and password Female.passed
+Then Home page1 is not displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Fill the alert page" name="Title of your scenario" time="0.016">
+        <system-out><![CDATA[Given Launch the browser....................................................passed
+When Login with username "deepak123" and password "Deepak123$"..............passed
+Then Verify the login is successful.........................................passed
+Given Navigate to the alert page............................................passed
+When click on alert button..................................................passed
+Then Verify the alert button................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Fill the elements form" name="Title of your scenario" time="0.017">
+        <system-out><![CDATA[Given Launch the browser....................................................passed
+When Login with username "deepak123" and password "Deepak123$"..............passed
+Then Verify the login is successful.........................................passed
+Given Navigate to the elements page.........................................passed
+When Enter the fullname "Deepak" and email "deepaknpatil121@gmail.com" and cureent address "Bangalore" and permannent address "Bangalore".passed
+Then Submit the successfully filled1........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Fill the practice form" name="Title of your scenario" time="0.048">
+        <system-out><![CDATA[Given Launch the browser....................................................passed
+When Login with username "deepak123" and password "Deepak123$"..............passed
+Then Verify the login is successful.........................................passed
+Then Verify the login is success1...........................................passed
+Given Navigate to the practice form.........................................passed
+When Enter the firstname "deepak" and lastname "patil"......................passed
+And Enter the emailid "deepaknpatil121@gmail.com"...........................passed
+Then Verify the successfully filled1........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to the application" name="Login to the application with valid credentials" time="0.006">
+        <system-out><![CDATA[Given Launch the browser....................................................passed
+When Login with username "deepak123" and password "Deepak123$"..............passed
+Then Verify the login is successful.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
